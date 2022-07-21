@@ -1,6 +1,76 @@
 /* Custom CSS */
 
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+
 .full-width {
     background-color: #8EAB52;
 }
-
+.steps {
+    margin: 30px;
+}
+.row {
+    display: flex;
+    max-width: 800px;
+}
+.order {
+    background-color: #8EAB52;
+    margin: 10px;
+}
+.shipping {
+    margin-left: 400px;
+}
+.food {
+    margin-left: 750px;
+}
+#health-needs {
+    margin: 90px;
+}
+#health-needs .container {
+    margin: 80px ;
+}
+#delivery {
+    width: 1440px;
+    height: 850px;
+    background-image: url('../img/delivery-background-plain.png');
+}
+#delivery h2 {
+    font-family: 'Fascinate Inline', cursive;
+    font-size: 88px;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+#h2-one {
+    float:left;
+    color: orange;
+}
+#h2-two {
+    float: right;
+    margin-top: 550px;
+    color: #73AB2B;
+}
+#customer img {
+    margin: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#customer button {
+    background-color: #FF6B00; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    width: 20%;
+    margin-left: 550px;
+}
+.footer-section {
+    display: flex;
+    margin: 60px;
+    justify-content: center;
+}
