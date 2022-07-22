@@ -69,8 +69,13 @@
     width: 20%;
     margin-left: 550px;
 }
+footer {
+    height: 40px;
+    background-color: #638e0d;
+}
 .footer-section {
     display: flex;
     margin: 60px;
+    padding: 10px;
     justify-content: center;
 }
