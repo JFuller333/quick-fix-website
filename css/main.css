@@ -24,8 +24,9 @@ html {
   margin-right: auto;
   max-width: 40%;
 }
-.header {
-height: 500px;
+#header {
+  width: 1000px;
+  height: 800px;
 }
 h1 {
   font-size: 2.5em;
@@ -47,13 +48,12 @@ h4 {
 }
 .container {
   display: flex;
+  padding: 60px;
 }
 .col {
   margin:20px;
 }
-#grocery {
-  margin:40px;
-}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
